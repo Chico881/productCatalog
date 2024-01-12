@@ -1,0 +1,18 @@
+[
+  {"image": "ip1.jpg", "title": "iPhone 13 Pro Max", "description": "The top-of-the-line iPhone with a larger display, powerful camera system, and longer battery life.", "price": 1099.00},
+  {"image": "ip2.jpg", "title": "iPhone 13 Pro", "description": "A premium iPhone featuring a stunning display, exceptional performance, and impressive camera capabilities.", "price": 999.00},
+  {"image": "ip3.jpg", "title": "iPhone 13", "description": "An all-around iPhone with a powerful chip, improved cameras, and long-lasting battery life.", "price": 799.00},
+  {"image": "ip4.jpg", "title": "iPhone 13 mini", "description": "A compact iPhone packed with features, offering great performance in a smaller size.", "price": 699.00},
+  {"image": "ip5.jpg", "title": "iPhone 12 Pro Max", "description": "A previous-generation iPhone featuring a large Super Retina XDR display and impressive camera system.", "price": 1099.00},
+  {"image": "ip6.jpg", "title": "iPhone 12 Pro", "description": "A powerful iPhone with 5G capability, advanced cameras, and Ceramic Shield front cover.", "price": 999.00},
+  {"image": "ip7.jpg", "title": "iPhone 12", "description": "Featuring 5G speed, A14 Bionic chip, and an edge-to-edge OLED display for vibrant visuals.", "price": 799.00},
+  {"image": "ip8.jpg", "title": "iPhone 12 mini", "description": "A compact iPhone with 5G capabilities, a powerful chip, and a pocket-friendly size.", "price": 699.00},
+  {"image": "ip9.jpg", "title": "iPhone SE (2nd generation)", "description": "A budget-friendly iPhone with the power of the A13 Bionic chip and Touch ID.", "price": 399.00},
+  {"image": "ip10.jpg", "title": "iPhone 11 Pro Max", "description": "A previous-gen flagship with a triple-camera system, A13 Bionic chip, and Super Retina XDR display.", "price": 1099.00},
+  {"image": "ip11.jpg", "title": "iPhone 11 Pro", "description": "A premium iPhone with a triple-camera system, A13 Bionic chip, and stunning Super Retina XDR display.", "price": 999.00},
+  {"image": "ip12.jpg", "title": "iPhone 11", "description": "An excellent iPhone with a dual-camera system, A13 Bionic chip, and Liquid Retina HD display.", "price": 699.00},
+  {"image": "ip13.jpg", "title": "iPhone XS Max", "description": "A powerful iPhone with a large display, dual-camera system, and A12 Bionic chip.", "price": 999.00},
+  {"image": "ip14.jpg", "title": "iPhone XS", "description": "A previous-gen flagship with a dual-camera system, A12 Bionic chip, and Super Retina display.", "price": 899.00},
+  {"image": "ip15.jpg", "title": "iPhone XR", "description": "A popular iPhone with a Liquid Retina display, A12 Bionic chip, and Face ID.", "price": 599.00},
+  {"image": "ip16.jpg", "title": "iPhone X", "description": "A revolutionary iPhone with an edge-to-edge display, Face ID, and powerful A11 Bionic chip.", "price": 499.00}
+]

@@ -1,0 +1,160 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #C0C0C0, #FFFFFF);
+}
+.navBar {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #dadada;
+    padding: 16px;
+    width: 100%;
+    position: fixed;
+}
+.navBar a, .navBar i {
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    padding: 0px 18px 0px 18px;
+}
+ #searchBar {
+      display: none;
+    }
+    button {
+      border: none;
+      background: none;
+      padding: 0;
+      }
+    .searchContainer {
+    display: flex;
+    align-items: center;
+}
+
+#searchBar {
+    display: none;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+#searchInput {
+    width: 300px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#clearButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-left: 10px;
+}
+.cp1 {
+    background-image: url('ip.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 50px;
+    margin: 0 auto;
+    max-width: 100vw;
+    padding: 20px;
+}
+.product {
+    padding: 20px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: 2px solid #black;
+    border-radius: 8px;
+    width: 100%;
+    background-color: white;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin: 20px 20px 20px 20px;
+}
+.product img {
+    width: 100%;
+    display: block;
+}
+.product .title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-shadow: 0 5px 5px rgba(0,0,0,0.2);
+    font-weight: 800;
+    font-size: 36px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono', sans-serif;
+}
+.product .description {
+    padding: 0 20px 20px 20px;
+    line-height: 22px;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+.product .price{
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    color: #9b0b03;
+    padding-top: 30px;
+    font-family: sans-serif;
+    text-shadow: 0 5px 5px rgba(0,0,0,0.2);
+    transform: rotate(-45deg);
+}
+.product .cart {
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    background-color: #3e628f;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.product .cart {
+    padding-left: 10px;
+}
+.product .cart {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.product .cart:hover {
+    transform: scale(1.1);
+}
+footer {
+    text-align: center;
+    color: #7f7f7f;
+}
+@media screen and (max-width: 767px) {
+    .navBar {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navBar a {
+        padding: 8px 12px;
+        white-space: nowrap;
+    }
+
+    #searchInput {
+        width: 120px;
+    }
+}
